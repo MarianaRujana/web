@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florito Floristeria</title>
+
+    <!-- Enlaces a los archivos CSS y bibliotecas externas -->
+    <link rel="stylesheet" href="floristeria.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+</head>
+<body>
+
+<!-- Encabezado de la página, incluyendo el logo, menú y redes sociales -->
+<header>
+    <a href="#" class="logo">
+        <img src="images/logo.jpg" alt="" height="50" width="50">
+    </a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <ul class="navbar">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <div class="dropdown">
+            <button class="dropdown-button">PRODUCTOS</button>
+            <div class="dropdown-content">
+              <a href="productos.html">Arreglos en base</a>
+              <a href="pruductos 2.html">Bouquets</a>
+              <a href="productos3.html">Areeglos con frutas</a>
+            </div>
+          </div>
+    </ul>
+    <div class="social-nav">
+            <a href="https://www.facebook.com/floritofloristeria"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/florito_floristeria/"><i class='bx bxl-instagram'></i></a>
+        </div>
+    </div>
+</header>
+
+<!-- whatsapp -->
+<div class="whatsapp-float">
+    <a href="https://wa.me/573223681434" target="_blank" id="whatsapp-button">
+        <img src="images/WhatsApp.svg.png" alt="WhatsApp" />
+    </a>
+</div>
+
+<!-- Sección principal "Home" con un texto de bienvenida y botón de acción -->
+<section class="home" id="home">
+    <div class="home-text">
+        <h1>Florito <br> Floristería </h1>
+        <p>Bienvenidos a la mejor floristería, si no sabes que decir en una fecha especial o quieres tener un dellate deja que las flores hablen por ti.</p>
+            <div class="botines">
+            <a href="productos.html" class="btn">Comprar Ahora</a>
+            </div>
+    </div>
+    <div class="home-img">
+        <img src="images/slider1.png" alt ="" height="550" width="700">
+    </div>
+</section>
+
+<!-- Sección de información de la floristería -->
+<section class="info-container">
+    <div class="info-img">
+        <img src="images/info.jpg" alt="">
+    </div>
+    <div class="info-txt">
+        <h2>Información </h2>
+        <p>Somos Florito Floritería la empresa numero uno de nuestro municipio y alrededores, actualmente llevamos 6 años repartiendo felicidad a tavéz de las flores, contamos con la mejor atencion al cliente y te brindamos la mejor experiencia en compras, nosotros nos adaptamos a ti, hacemos que tus ideas se hagan relaidad y que te sientes como en un lugar mágico donde las flores se transforman en sentimientos.</p>
+        <a href="nosotros.html" class="btn-2">Más información</a>
+    </div>
+</section>
+
+<!-- Sección de productos en formato de pestañas -->
+<main class="products">
+    <div class="tabs container">
+        <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1"> 
+        <label for="tab1">Arreglo de frutas</label>
+        <div class="tab">
+            <div class="swiper mySwiper-2" id="swiper1">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="product-img">
+                                <h4>Nuevo</h4>
+                                <img src="images/base2-removebg-preview.png" alt="">
+                            </div>
+                            <div class="product-txt">
+                                <h4>Producto 1</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$70.000</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="product-img">
+                                <h4>Nuevo</h4>
+                                <img src="images/base1-removebg-preview.png" alt="">
+                            </div>
+                            <div class="product-txt">
+                                <h4>Producto 2</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$70.000</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="product-img">
+                                <h4>Nuevo</h4>
+                                <img src="images/base3-removebg-preview.png" alt="">
+                            </div>
+                            <div class="product-txt">
+                                <h4>Producto 3</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$70.000</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="product-img">
+                                <h4>Nuevo</h4>
+                                <img src="images/base3-removebg-preview.png" alt="">
+                            </div>
+                            <div class="product-txt">
+                                <h4>Producto 3</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$70.000</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+        <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2"> 
+        <label for="tab2">Ramos</label>
+        <div class="tab">
+            <div class="swiper mySwiper-2" id="swiper2">
+                
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="product-img">
+                                <h4>Nuevo</h4>
+                                <img src="images/fru1.jpg" alt="">
+                            </div>
+                            <div class="product-txt">
+                                <h4>Producto 1</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$70.000</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="product-img">
+                                <h4>Nuevo</h4>
+                                <img src="images/fru2.jpg" alt="">
+                            </div>
+                            <div class="product-txt">
+                                <h4>Producto 2</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$70.000</span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="product-img">
+                                <h4>Nuevo</h4>
+                                <img src="images/fru3.jpg" alt="">
+                            </div>
+                            <div class="product-txt">
+                                <h4>Producto 3</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$70.000</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="product-img">
+                                <h4>Nuevo</h4>
+                                <img src="images/base3-removebg-preview.png" alt="">
+                            </div>
+                            <div class="product-txt">
+                                <h4>Producto 3</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$70.000</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+        <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3"> 
+        <label for="tab3">Variedad</label>
+        <div class="tab">
+            <div class="swiper mySwiper-2" id="swiper3">
+                
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="product-img">
+                                <h4>Nuevo</h4>
+                                <img src="images/slider1.png" alt="">
+                            </div>
+                            <div class="product-txt">
+                                <h4>Producto 1</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$70.000</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="product-img">
+                                <h4>Nuevo</h4>
+                                <img src="images/slider2.jpeg" alt="">
+                            </div>
+                            <div class="product-txt">
+                                <h4>Producto 2</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$70.000</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="product-img">
+                                <h4>Nuevo</h4>
+                                <img src="images/slider3.jpeg" alt="">
+                            </div>
+                            <div class="product-txt">
+                                <h4>Producto 3</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$70.000</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="product-img">
+                                <h4>Nuevo</h4>
+                                <img src="images/base3-removebg-preview.png" alt="">
+                            </div>
+                            <div class="product-txt">
+                                <h4>Producto 3</h4>
+                                <p>Calidad premium</p>
+                                <span class="price">$70.000</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Sección de pie de página con información de contacto, horarios y enlaces a redes sociales -->
+<section class="footer">
+    <div class="footer-box">
+        <h2>Florito Floristeria </h2>
+        <div class="social">
+            <a href="https://www.facebook.com/floritofloristeria"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/florito_floristeria/"><i class='bx bxl-instagram'></i></a>
+        </div>
+    </div>
+    <div class="footer-box">
+        <h3>Horario</h3>
+        <li>Lunes a Viernes</li>
+        <li>7:00 AM - 8:00 PM</li>
+        <li>Sabado y Domingo</li>
+        <li>9:00 AM - 6:00 PM</li>
+    </div>
+    <div class="footer-box">
+        <h3>Contacto</h3>
+        <div class="contact">
+            <span><i class='bx bxs-map'></i>Calle 6 # 5-46 Tesalia - Huila </span> 
+            <span><i class='bx bxs-phone'></i>3223681434 </span>
+            <span><i class='bx bxs-envelope'></i>floristeria@florito.com </span> 
+    
+        </div>
+    </div>
+</section>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="main.js"></script> 
+</body>
+</html>
